@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    background-image: linear-gradient(to right, rgb(145, 170, 207) 10%, rgb(134, 136, 148));
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(83, 69, 121);
+}
+.menu{
+    background-color: rgb(206, 205, 226);
+}
+.menu li{
+    list-style:none;
+}
+.menu ul{
+    display:flex;
+    justify-content: space-around;
+}
+.title, .subtitle{
+    text-align: center;
+}
